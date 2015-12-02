@@ -45,10 +45,11 @@ One quick word of warning: This fix works great, but it did cause an initial han
 
 P.S. For those looking for some extra credit on the OS X `open` command, (such as opening application-specific URLs, (For example, [Dash's][dash] handler `dash://`), here's a great article providing a concise overview: 
 
-http://brettterpstra.com/2014/08/06/shell-tricks-the-os-x-open-command/
+[Shell Tricks: The OS X open Command][tricks]
 
 Happy tmux-ing!
 
 [reattach]:    http://brewformulas.org/ReattachToUserNamespace
 [force-close]: https://discussions.apple.com/thread/5703354
 [dash]:        https://kapeli.com/dash
+[tricks]:      http://brettterpstra.com/2014/08/06/shell-tricks-the-os-x-open-command/
