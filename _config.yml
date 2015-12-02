@@ -1,0 +1,12 @@
+# Site settings
+title: devops errata 
+email: dan@logickc.com
+description: > # this means to ignore newlines until "baseurl:"
+  Gists, code snippets, and other brain dumps (often with a DevOps bent)
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://dannykansas.github.io" # the base hostname & protocol for your site
+twitter_username: dannykansas
+github_username:  dannykansas
+
+# Build settings
+markdown: kramdown
