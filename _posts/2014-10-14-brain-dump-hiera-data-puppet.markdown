@@ -2,7 +2,7 @@
 layout: post
 title:  "Brain Dump: Automated Parameter Lookups in Hiera aren't hard..."
 date:   2014-10-14 08:32:03
-categories: puppet configuration-management devops
+categories: devops puppet
 ---
 
 But I certainly made them that way. 

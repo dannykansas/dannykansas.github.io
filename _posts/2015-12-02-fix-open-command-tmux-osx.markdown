@@ -2,7 +2,7 @@
 layout: post
 title:  "Fix for `open` command in tmux on OS X"
 date:   2015-12-02 03:35:00
-categories: terminalfu tmux osx
+categories: osx terminalfu
 ---
 
 This was a deceptively difficult problem to solve that I just encountered, so I thought I would document the fix for the likely droves of others out there who might experience similar issues. 
@@ -21,7 +21,7 @@ Yuck.
 
 Here's the fix...
 
-I was able to wire this together using the [`reattach-to-user-namespace`][reattach] package readily available through `brew`:
+I was able to wire this together using the [reattach-to-user-namespace][reattach] package readily available through `brew`:
 
 Steps to fix are simply:
 1. Make sure your brew install is up-to-date: `brew update`
@@ -45,7 +45,7 @@ One quick word of warning: This fix works great, but it did cause an initial han
 
 P.S. For those looking for some extra credit on the OS X `open` command, (such as opening application-specific URLs, (For example, [Dash's][dash] handler `dash://`), here's a great article providing a concise overview: 
 
-[Shell Tricks: The OS X open Command][tricks]
+[Shell Tricks: The OS X `open` Command][tricks]
 
 Happy tmux-ing!
 
